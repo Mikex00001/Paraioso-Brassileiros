@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.banner-01 {
+    height: 100vh;
+    background-image: url('/Images/Foto01.png'); /* Substitua com o caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.banner-01 h1 {
+    color: aliceblue;
+    font-size: 12vh;
+    margin: 0;
+}
+.parag {
+    background-color: black;
+    border: 1px solid rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.parag h1 {
+    color: aliceblue;
+    font-size: 7vh;
+}
+.parag p {
+    color: aliceblue;
+    font-size: 3vh;
+    width: 90%; /* Define a largura em porcentagem do contêiner */
+    max-width: 1000px; /* Define uma largura máxima para o texto */
+    margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+}
+.banner-02 {
+    height: 90vh;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.banner-02 p{
+    color: aliceblue;
+  
+}
+.parag2 {
+    background-color: black;
+    border: 1px solid rgb(0, 0, 0);
+}
+.parag2 h1 {
+    color: aliceblue;
+    font-size: 7vh;
+    text-align: center;
+}
+.parag2 p {
+    color: aliceblue;
+    text-align: center;
+    font-size: 3vh;
+    width: 90%; /* Define a largura em porcentagem do contêiner */
+    max-width: 100%; /* Define uma largura máxima para o texto */
+    margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+}
+.banner-03 {
+    height: 70vh;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.banner-03 p { 
+
+}
+.banner-04 {
+    height: 100vh;
+    background-image: url('/Images/Ultimo.png'); /* Substitua com o caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    text-align:  bottom;
+}
+.rodape {
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.rodape p{
+  color: white;
+  position: relative;
+
+
+
+  justify-content: center;
+}
+
+
+.banner-item {
+    text-align: center;
+}
+
+.banner-item img {
+    max-width: 90%;
+    height: auto;
+    border: none;
+  
+}
+
+.banner-item h2 {
+  margin-top: -70px;
+    font-size: 24px;
+    color: white;
+}
+
+.banner-item p {
+    font-size: 2vh;
+    color: white;
+    margin-bottom: 100px;
+}
+
+
+
+
+.banner-item2 {
+    text-align: center;
+}
+
+.banner-item2 img {
+    max-width: 80%;
+    height: auto;
+}
+
+.banner-item2 h2 {
+  margin-top: -70px;
+    font-size: 24px;
+    color: white;
+}
+
+.banner-item2 p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 100px;
+}
+
+/* Estilo para tablets (telas médias) */
+@media (max-width: 768px) {
+    .banner-02 {
+        display: block;
+    }
+    .banner-03 {
+        display: block;
+    }
+  }
+  
+  /* Estilo para smartphones (telas pequenas) */
+  @media (max-width: 480px) {
+    .banner-02 {
+        display: block;
+    }
+    .banner-03 {
+        display: block;
+    }
+  }
